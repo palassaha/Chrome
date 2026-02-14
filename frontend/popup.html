@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        #micBtn {
+            font-size: 40px;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        .recording {
+            color: red;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        #countdown {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Media Voice</h3>
+    <button id="micBtn">MIC</button>
+    <p id="status">Click to speak</p>
+    <p id="countdown"></p>
+    <script src="popup.js"></script>
+</body>
+
+</html>

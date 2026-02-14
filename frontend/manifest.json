@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Voice Media Search",
+    "version": "1.1",
+    "permissions": [
+        "activeTab",
+        "offscreen"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
