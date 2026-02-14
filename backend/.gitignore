@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+main_old.py
+app_old.py
